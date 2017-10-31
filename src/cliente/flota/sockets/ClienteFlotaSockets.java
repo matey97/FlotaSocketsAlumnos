@@ -88,6 +88,7 @@ public class ClienteFlotaSockets {
 				public void windowClosing(WindowEvent e) {
 					try{
 						auxClienteFlota.fin();
+						System.exit(0);
 					}catch(IOException ex) {
 						ex.printStackTrace();
 					}
