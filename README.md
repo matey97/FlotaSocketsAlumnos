@@ -7,3 +7,5 @@ El proyecto está dividido en los siguientes paquetes:
 - Partida: Contiene la definición de una partida y de un barco.
 - Comun: Contiene una clase recubridora de StreamSocket, facilitando su uso.
 - Cliente: Contiene el cliente y una clase auxiliar que será con la que se pedirá la conexión y se realizará la comunicación con el thread.
+
+Para ver el funcionamiento, primero arrancar un servidor y posteriormente uno o varios clientes. Si se ha arrancado el servidor concurrente podrá haber varios clientes a la vez.
